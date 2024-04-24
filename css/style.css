@@ -1,0 +1,67 @@
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 80ch;
+    background-color: #210856;
+    color: white;
+}
+
+a {
+    color: yellowgreen;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: whitesmoke;
+}
+
+header {
+    background-color: rgba(90, 56, 138, 0.685);
+    padding: 0px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+nav ul:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+h2 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
